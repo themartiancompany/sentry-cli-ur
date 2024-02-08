@@ -1,0 +1,20 @@
+pkgbase = sentry-cli
+	pkgdesc = A command line utility to work with Sentry
+	pkgver = 2.20.6
+	pkgrel = 1
+	url = https://docs.sentry.io/cli/
+	arch = x86_64
+	arch = arm
+	arch = aarch64
+	arch = mips
+	arch = armv7h
+	license = BSD
+	makedepends = cargo
+	depends = gcc-libs
+	depends = bzip2
+	depends = zlib
+	options = !lto
+	source = sentry-cli-2.20.6.tar.gz::https://github.com/getsentry/sentry-cli/archive/2.20.6.tar.gz
+	sha256sums = bc60cc1a6015c337e7a3598123962dd24564426bd1a537f759fd19b00184643e
+
+pkgname = sentry-cli
